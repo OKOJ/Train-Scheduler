@@ -1,0 +1,72 @@
+.jumbotron {
+    background-image: url(https://media.giphy.com/media/o3kv8esoohmI8/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: antiquewhite;
+    padding: 30px;
+
+}
+
+.display-4 {
+    margin-left: 30px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 90px;
+    font-family: 'Muli', sans-serif;
+}
+
+.card {
+    font-family: 'Muli', sans-serif;
+}
+
+.card-header {
+    font-size: 25px;
+    background-color: rgb(155, 138, 117);
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 540px) {
+    .body{
+        width: 98%;
+        
+    }
+    #schedule{
+        width: 98%;
+        padding:5px;
+    }
+    
+    .jumbotron{
+        height: 200px;
+        padding: 0px;
+    }
+    
+    .display-4 {
+        font-size: 70px;
+        background: blue;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 450px) {
+    .display-4 {
+        background: green;
+    }
+    #schedule{
+        width: 90%;
+        padding:0px;
+        font-size: 13px;
+    }
+    #train-table{
+        padding: 1px;
+    }
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 350px) {
+    .display-4 {
+        background: red;
+    }
+}
