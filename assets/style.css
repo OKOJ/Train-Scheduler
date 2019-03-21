@@ -1,4 +1,4 @@
-.container{
+.container {
     font-family: 'Muli', sans-serif;
 }
 
@@ -16,7 +16,7 @@
     margin-top: 40px;
     font-weight: 400;
     font-size: 90px;
-    
+
 }
 
 .card-header {
@@ -24,31 +24,38 @@
     background-color: rgb(155, 138, 117);
 }
 
+
+
+
 /* On screens that are 320px or less */
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
 
-.container{
-    padding: 0px;
-    margin: 0px;
-}
-.jumbotron{
-    padding: 0px;
-    margin: 0px;
-}
-.display-4{
-    margin: 0px;
-    font-size: -webkit-xxx-large;
-}
+    .container {
+        padding: 0px;
+        margin: 0px;
+    }
 
-#schedule{
-    padding: 0px;
-    font-size: 9px;
-}
-.card-header {
-    font-size: 15px;
-  }
-  .card-body{
-    padding: 10px;
-    font-size: 12px;
-  }
+    .jumbotron {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .display-4 {
+        margin: 0px;
+        font-size: -webkit-xxx-large;
+    }
+
+    #schedule {
+        padding: 0px;
+        font-size: 9px;
+    }
+
+    .card-header {
+        font-size: 15px;
+    }
+
+    .card-body {
+        padding: 10px;
+        font-size: 12px;
+    }
 }
